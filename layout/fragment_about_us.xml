@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:clickable="true">
+
+    <ImageView
+        android:id="@+id/photoDeveloper"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:src="@drawable/joey" />
+
+    <TextView
+        android:id="@+id/aboutDeveloperA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/photoDeveloper"
+        android:layout_centerHorizontal="true"
+        android:text="This app is made by Joey Tribbiani as"
+        android:textColor="#A9A9A9"
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/aboutDeveloperB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/aboutDeveloperA"
+        android:layout_centerHorizontal="true"
+        android:text="part of Internshala's Online Android"
+        android:textColor="#A9A9A9"
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/aboutDeveloperC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/aboutDeveloperB"
+        android:layout_centerHorizontal="true"
+        android:text="Training project."
+        android:textColor="#A9A9A9"
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/aboutDeveloperD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/aboutDeveloperC"
+        android:layout_centerHorizontal="true"
+        android:text="App version: 1.0"
+        android:textColor="#A9A9A9"
+        android:textSize="13sp" />
+</RelativeLayout>
